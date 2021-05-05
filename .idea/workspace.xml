@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0bef11-e835-416d-a128-d91bd5ccb8a5" name="Default Changelist" comment="build">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/Build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Build.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,7 @@
       <workItem from="1620115246018" duration="62000" />
       <workItem from="1620115351453" duration="1453000" />
       <workItem from="1620117534887" duration="23042000" />
-      <workItem from="1620227010514" duration="1862000" />
+      <workItem from="1620227010514" duration="2214000" />
     </task>
     <task id="LOCAL-00001" summary="0.1&#10;add write read func">
       <created>1620211194869</created>
@@ -222,7 +222,35 @@
       <option name="project" value="LOCAL" />
       <updated>1620229010583</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="build">
+      <created>1620229102807</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620229102807</updated>
+    </task>
+    <task id="LOCAL-00015" summary="build">
+      <created>1620229132034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620229132034</updated>
+    </task>
+    <task id="LOCAL-00016" summary="build">
+      <created>1620229276154</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620229276154</updated>
+    </task>
+    <task id="LOCAL-00017" summary="build">
+      <created>1620229330316</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620229330316</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
