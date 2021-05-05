@@ -40,7 +40,6 @@ jobs:
           - uses: actions/checkout@v2
           - name: Run build
             run: |
-              rm -r ./build *
               python3 ./setup.py build
           - name: Commit files
             run: |
