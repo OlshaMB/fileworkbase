@@ -42,7 +42,6 @@ jobs:
           - uses: actions/checkout@v2
           - name: Run build
             run: |
-              python2.7 ./setup.py build
               python3.5 ./setup.py build
               python3.6 ./setup.py build
               python3.7 ./setup.py build
