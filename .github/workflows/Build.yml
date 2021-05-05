@@ -45,7 +45,6 @@ jobs:
                 compiler: g++-10
                 target: Linux
                 python-version: 3.9
-
               - os: windows-latest
                 compiler: g++-10
                 target: Linux
@@ -66,7 +65,6 @@ jobs:
                 compiler: g++-10
                 target: Linux
                 python-version: 3.9
-
               - os: macos-latest
                 compiler: g++-10
                 target: Linux
