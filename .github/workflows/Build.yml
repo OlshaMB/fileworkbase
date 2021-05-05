@@ -43,7 +43,7 @@ jobs:
           - uses: actions/setup-python@v2
           - name: Run build
             run: |
-              python${{ matrix.python-version }} ./setup.py build
+              python3 ./setup.py build
           - name: Commit files
             run: |
                 git fetch
