@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0bef11-e835-416d-a128-d91bd5ccb8a5" name="Default Changelist" comment="build" />
+    <list default="true" id="ea0bef11-e835-416d-a128-d91bd5ccb8a5" name="Default Changelist" comment="build">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/Build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Build.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +129,7 @@
       <workItem from="1620115246018" duration="62000" />
       <workItem from="1620115351453" duration="1453000" />
       <workItem from="1620117534887" duration="23042000" />
-      <workItem from="1620227010514" duration="4437000" />
+      <workItem from="1620227010514" duration="4615000" />
     </task>
     <task id="LOCAL-00001" summary="0.1&#10;add write read func">
       <created>1620211194869</created>
@@ -318,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620233321895</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="build">
+      <created>1620233875061</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1620233875061</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

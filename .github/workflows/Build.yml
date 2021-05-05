@@ -39,7 +39,7 @@ jobs:
           - uses: actions/checkout@v2
           - name: Run build
             run: |
-              python ./setup.py build
+              python${{ matrix.python-version }} ./setup.py build
           - name: Commit files
             run: |
                 git fetch
