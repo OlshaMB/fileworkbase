@@ -71,7 +71,7 @@ static struct PyModuleDef module = {
         PyModuleDef_HEAD_INIT, "filework", "File module", -1, methods
 };
 PyMODINIT_FUNC
-PyInit_filework() {
+PyInit_fileworkbase() {
     mod = PyModule_Create(&module);
     PyModule_AddObject(mod, "space", PyUnicode_FromString("/"));
 
