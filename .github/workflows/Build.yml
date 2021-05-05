@@ -28,65 +28,65 @@ jobs:
               - os: ubuntu-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.5
+                python-version: 3.5
               - os: ubuntu-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.6
+                python-version: 3.6
               - os: ubuntu-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.7
+                python-version: 3.7
               - os: ubuntu-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.8
+                python-version: 3.8
               - os: ubuntu-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.9
+                python-version: 3.9
 
               - os: windows-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.5
+                python-version: 3.5
               - os: windows-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.6
+                python-version: 3.6
               - os: windows-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.7
+                python-version: 3.7
               - os: windows-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.8
+                python-version: 3.8
               - os: windows-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.9
+                python-version: 3.9
 
               - os: macos-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.5
+                python-version: 3.5
               - os: macos-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.6
+                python-version: 3.6
               - os: macos-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.7
+                python-version: 3.7
               - os: macos-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.8
+                python-version: 3.8
               - os: macos-latest
                 compiler: g++-10
                 target: Linux
-                python-version:3.9
+                python-version: 3.9
 
         steps:
           - uses: actions/checkout@v2
