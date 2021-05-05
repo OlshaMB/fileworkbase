@@ -28,15 +28,15 @@ jobs:
               - os: ubuntu-latest
                 compiler: g++-10
                 target: Linux
-                python-version: [3.5, 3.6, 3.7, 3.8, 3.9]
+
               - os: macos-latest
                 compiler: g++-10
                 target: Macos
-                python-version: [3.5, 3.6, 3.7, 3.8, 3.9]
+
               - os: windows-latest
                 compiler: g++-10
                 target: Windows
-                python-version: [3.5, 3.6, 3.7, 3.8, 3.9]
+
         steps:
           - uses: actions/checkout@v2
           - name: Run build
