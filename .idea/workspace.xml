@@ -9,11 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0bef11-e835-416d-a128-d91bd5ccb8a5" name="Default Changelist" comment="update gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/filework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea0bef11-e835-416d-a128-d91bd5ccb8a5" name="Default Changelist" comment="build">
       <change beforePath="$PROJECT_DIR$/.github/workflows/Build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/Build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +130,7 @@
       <workItem from="1620115246018" duration="62000" />
       <workItem from="1620115351453" duration="1453000" />
       <workItem from="1620117534887" duration="23042000" />
-      <workItem from="1620227010514" duration="718000" />
+      <workItem from="1620227010514" duration="1308000" />
     </task>
     <task id="LOCAL-00001" summary="0.1&#10;add write read func">
       <created>1620211194869</created>
@@ -176,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620227051696</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="build">
+      <created>1620227808114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620227808114</updated>
+    </task>
+    <task id="LOCAL-00008" summary="build">
+      <created>1620227924955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620227924955</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +212,8 @@
     <MESSAGE value="windows build magic" />
     <MESSAGE value="windows build magic magic" />
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
