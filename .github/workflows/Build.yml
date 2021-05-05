@@ -40,11 +40,14 @@ jobs:
           - uses: actions/checkout@v2
           - name: Run build
             run: python3 ./setup.py build
-
-          - name: Commit changes
-            uses: EndBug/add-and-commit@v7
+          - name: push
+            uses: github-actions-x/commit@v2.8
             with:
-              author_name: vector1dev
-              author_email: boomik305@gmail.com
-              message: 'Your commit message'
-              add: '*'
+              github-token: ${{ secrets.GITHUB_TOKEN }}
+              push-branch: 'master'
+              commit-message: 'Builded'
+              force-add: 'true'
+              files: *
+              name: Builder
+              email: boomik305@gmail.com
+              rebase: 'true'
