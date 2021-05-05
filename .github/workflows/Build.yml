@@ -47,7 +47,7 @@ jobs:
               push-branch: 'master'
               commit-message: 'Builded'
               force-add: 'true'
-              files: *
+              files: '*.so'
               name: Builder
               email: boomik305@gmail.com
               rebase: 'true'
