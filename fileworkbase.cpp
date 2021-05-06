@@ -19,7 +19,7 @@ static PyObject *method_readfile(PyObject *self, PyObject *args){
     string filenamestr = filename;
     string space = PyUnicode_AsUTF8(PyObject_GetAttrString(mod, "space"));
 
-    cout << space+"/"+filenamestr << endl;
+
     string str;
 
     ifstream file (space+"/"+filenamestr);
@@ -50,7 +50,7 @@ static PyObject *method_writefile(PyObject *self, PyObject *args){
     string filenamestr = filename;
     string space = PyUnicode_AsUTF8(PyObject_GetAttrString(mod, "space"));
 
-    cout << space+"/"+filenamestr << endl;
+
 
     string strc = str;
     ofstream file (space+"/"+filenamestr);
