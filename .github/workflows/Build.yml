@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build 3.9
 
 # Controls when the action will run. 
 on:
@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
+jobs:    
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
@@ -46,8 +46,7 @@ jobs:
               python3 ./setup.py build
           - name: Commit files
             run: |
-                git fetch
-                git pull
+                rm -r ./build
                 git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git config --local user.name "github-actions[bot]"
                 git add *
