@@ -81,8 +81,14 @@ def main():
 
     print("")
 
-    print("Библиотека OlshaMB лучше читает файлы на", read_olsha - read_python, ". Это в", read_olsha / read_python, "раз больше")
-    print("Библиотека OlshaMB лучше записывает файлы на", write_olsha - write_python, ". Это в", write_olsha / write_python, "раз больше")
+    if(read_python < read_olsha):
+        print("Библиотека OlshaMB лучше читает файлы на", read_olsha - read_python, ". Это в", read_olsha / read_python, "разлучше")
+    else:
+        print("Библиотека Python лучше читает файлы на", read_python - read_olsha, ". Это в", read_olsha / read_python, "раз лучше")
+    if(write_python < write_olsha):
+        print("Библиотека OlshaMB лучше записывает файлы на", write_olsha - write_python, ". Это в", write_olsha / write_python, "раз лучше")
+    else:
+        print("Библиотека Python лучше записывает файлы на", write_python - write_olsha, ". Это в", write_olsha / write_python, "раз лучше")
 
     print("")
 
