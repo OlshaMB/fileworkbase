@@ -43,7 +43,7 @@ jobs:
           - uses: actions/setup-python@v2
           - name: Delete build old
             run: |
-              git pull
+
               ls
               rm -r build
               git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
