@@ -41,33 +41,11 @@ jobs:
         steps:
           - uses: actions/checkout@v2
           - uses: actions/setup-python@v2
-          - name: Delete build old
-            run: |
-
-              ls
-              rm -r build
-              git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-              git config --local user.name "github-actions[bot]"
-              git add *
-              git commit -m "build" -a
-          - name: Push changes
-            uses: ad-m/github-push-action@master
-            with:
-                github_token: ${{ secrets.GITHUB_TOKEN }}
-                branch: ${{ github.ref }}
           - name: Run build
             run: |
 
               python3 ./setup.py build
-          - name: Commit files
-            run: |
-
-              git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                              git config --local user.name "github-actions[bot]"
-                              git add *
-                              git commit -m "build" -a
-          - name: Push changes
-            uses: ad-m/github-push-action@master
+          - uses: actions/upload-artifact@v2
             with:
-                github_token: ${{ secrets.GITHUB_TOKEN }}
-                branch: ${{ github.ref }}
+              name: Upload
+              path: build # or path/to/artifact
