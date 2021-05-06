@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
+import os
 loadtime = datetime.now()
 import fileworkbase
 print("Время загрузки библиотеки", datetime.now() - loadtime)
-
-fileworkbase.space = "/workspace/fileworkbase"
+fileworkbase.space = os.environ['TMPDIR']
 
 def bench_read():
     frs = 0
@@ -82,7 +82,7 @@ def main():
     print("")
 
     if(read_python < read_olsha):
-        print("Библиотека OlshaMB лучше читает файлы на", read_olsha - read_python, ". Это в", read_olsha / read_python, "разлучше")
+        print("Библиотека OlshaMB лучше читает файлы на", read_olsha - read_python, ". Это в", read_olsha / read_python, "раз лучше")
     else:
         print("Библиотека Python лучше читает файлы на", read_python - read_olsha, ". Это в", read_olsha / read_python, "раз лучше")
     if(write_python < write_olsha):

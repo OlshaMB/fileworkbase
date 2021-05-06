@@ -1,10 +1,8 @@
-#include "Python.h"
+#include "/Library/Frameworks/Python.framework/Versions/3.9/include/python3.9/Python.h"
 #include <fstream>
 #include <string>
 #include <iostream>
 using namespace std;
-
-//PyBytes_AS_STRING
 PyObject *mod;
 static PyObject *_method_spaceout(){
     return PyObject_GetAttrString(mod,"space");
@@ -37,6 +35,7 @@ static PyObject *method_readfile(PyObject *self, PyObject *args){
     }
 
     file.close();
+
 
     return PyUnicode_FromString(str.c_str());
 }

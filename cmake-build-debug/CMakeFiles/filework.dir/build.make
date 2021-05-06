@@ -76,42 +76,42 @@ include CMakeFiles/filework.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/filework.dir/flags.make
 
-CMakeFiles/filework.dir/filework.cpp.o: CMakeFiles/filework.dir/flags.make
-CMakeFiles/filework.dir/filework.cpp.o: ../filework.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filework.dir/filework.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filework.dir/filework.cpp.o -c /Users/mihailolshanskiy/CLionProjects/filework/filework.cpp
+CMakeFiles/filework.dir/fileworkbase.cpp.o: CMakeFiles/filework.dir/flags.make
+CMakeFiles/filework.dir/fileworkbase.cpp.o: ../fileworkbase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filework.dir/fileworkbase.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filework.dir/fileworkbase.cpp.o -c /Users/mihailolshanskiy/CLionProjects/filework/fileworkbase.cpp
 
-CMakeFiles/filework.dir/filework.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filework.dir/filework.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailolshanskiy/CLionProjects/filework/filework.cpp > CMakeFiles/filework.dir/filework.cpp.i
+CMakeFiles/filework.dir/fileworkbase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filework.dir/fileworkbase.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailolshanskiy/CLionProjects/filework/fileworkbase.cpp > CMakeFiles/filework.dir/fileworkbase.cpp.i
 
-CMakeFiles/filework.dir/filework.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filework.dir/filework.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailolshanskiy/CLionProjects/filework/filework.cpp -o CMakeFiles/filework.dir/filework.cpp.s
+CMakeFiles/filework.dir/fileworkbase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filework.dir/fileworkbase.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailolshanskiy/CLionProjects/filework/fileworkbase.cpp -o CMakeFiles/filework.dir/fileworkbase.cpp.s
 
-CMakeFiles/filework.dir/global.c.o: CMakeFiles/filework.dir/flags.make
-CMakeFiles/filework.dir/global.c.o: ../global.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/filework.dir/global.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filework.dir/global.c.o -c /Users/mihailolshanskiy/CLionProjects/filework/global.c
+CMakeFiles/filework.dir/test/tutorial/global.c.o: CMakeFiles/filework.dir/flags.make
+CMakeFiles/filework.dir/test/tutorial/global.c.o: ../test/tutorial/global.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/filework.dir/test/tutorial/global.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filework.dir/test/tutorial/global.c.o -c /Users/mihailolshanskiy/CLionProjects/filework/test/tutorial/global.c
 
-CMakeFiles/filework.dir/global.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filework.dir/global.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mihailolshanskiy/CLionProjects/filework/global.c > CMakeFiles/filework.dir/global.c.i
+CMakeFiles/filework.dir/test/tutorial/global.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filework.dir/test/tutorial/global.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mihailolshanskiy/CLionProjects/filework/test/tutorial/global.c > CMakeFiles/filework.dir/test/tutorial/global.c.i
 
-CMakeFiles/filework.dir/global.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filework.dir/global.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mihailolshanskiy/CLionProjects/filework/global.c -o CMakeFiles/filework.dir/global.c.s
+CMakeFiles/filework.dir/test/tutorial/global.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filework.dir/test/tutorial/global.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mihailolshanskiy/CLionProjects/filework/test/tutorial/global.c -o CMakeFiles/filework.dir/test/tutorial/global.c.s
 
 # Object files for target filework
 filework_OBJECTS = \
-"CMakeFiles/filework.dir/filework.cpp.o" \
-"CMakeFiles/filework.dir/global.c.o"
+"CMakeFiles/filework.dir/fileworkbase.cpp.o" \
+"CMakeFiles/filework.dir/test/tutorial/global.c.o"
 
 # External object files for target filework
 filework_EXTERNAL_OBJECTS =
 
-filework: CMakeFiles/filework.dir/filework.cpp.o
-filework: CMakeFiles/filework.dir/global.c.o
+filework: CMakeFiles/filework.dir/fileworkbase.cpp.o
+filework: CMakeFiles/filework.dir/test/tutorial/global.c.o
 filework: CMakeFiles/filework.dir/build.make
 filework: CMakeFiles/filework.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable filework"

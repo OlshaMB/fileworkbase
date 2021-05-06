@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mihailolshanskiy/CLionProjects/filework/global.c" "/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles/filework.dir/global.c.o"
+  "/Users/mihailolshanskiy/CLionProjects/filework/test/tutorial/global.c" "/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles/filework.dir/test/tutorial/global.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -13,7 +13,7 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mihailolshanskiy/CLionProjects/filework/filework.cpp" "/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles/filework.dir/filework.cpp.o"
+  "/Users/mihailolshanskiy/CLionProjects/filework/fileworkbase.cpp" "/Users/mihailolshanskiy/CLionProjects/filework/cmake-build-debug/CMakeFiles/filework.dir/fileworkbase.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

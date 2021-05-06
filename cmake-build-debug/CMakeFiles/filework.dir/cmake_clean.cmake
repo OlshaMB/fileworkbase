@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/filework.dir/filework.cpp.o"
-  "CMakeFiles/filework.dir/global.c.o"
+  "CMakeFiles/filework.dir/fileworkbase.cpp.o"
+  "CMakeFiles/filework.dir/test/tutorial/global.c.o"
   "filework"
   "filework.pdb"
 )

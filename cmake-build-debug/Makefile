@@ -142,59 +142,59 @@ filework/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/build
 .PHONY : filework/fast
 
-filework.o: filework.cpp.o
+fileworkbase.o: fileworkbase.cpp.o
 
-.PHONY : filework.o
-
-# target to build an object file
-filework.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/filework.cpp.o
-.PHONY : filework.cpp.o
-
-filework.i: filework.cpp.i
-
-.PHONY : filework.i
-
-# target to preprocess a source file
-filework.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/filework.cpp.i
-.PHONY : filework.cpp.i
-
-filework.s: filework.cpp.s
-
-.PHONY : filework.s
-
-# target to generate assembly for a file
-filework.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/filework.cpp.s
-.PHONY : filework.cpp.s
-
-global.o: global.c.o
-
-.PHONY : global.o
+.PHONY : fileworkbase.o
 
 # target to build an object file
-global.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/global.c.o
-.PHONY : global.c.o
+fileworkbase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/fileworkbase.cpp.o
+.PHONY : fileworkbase.cpp.o
 
-global.i: global.c.i
+fileworkbase.i: fileworkbase.cpp.i
 
-.PHONY : global.i
+.PHONY : fileworkbase.i
 
 # target to preprocess a source file
-global.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/global.c.i
-.PHONY : global.c.i
+fileworkbase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/fileworkbase.cpp.i
+.PHONY : fileworkbase.cpp.i
 
-global.s: global.c.s
+fileworkbase.s: fileworkbase.cpp.s
 
-.PHONY : global.s
+.PHONY : fileworkbase.s
 
 # target to generate assembly for a file
-global.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/global.c.s
-.PHONY : global.c.s
+fileworkbase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/fileworkbase.cpp.s
+.PHONY : fileworkbase.cpp.s
+
+test/tutorial/global.o: test/tutorial/global.c.o
+
+.PHONY : test/tutorial/global.o
+
+# target to build an object file
+test/tutorial/global.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/test/tutorial/global.c.o
+.PHONY : test/tutorial/global.c.o
+
+test/tutorial/global.i: test/tutorial/global.c.i
+
+.PHONY : test/tutorial/global.i
+
+# target to preprocess a source file
+test/tutorial/global.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/test/tutorial/global.c.i
+.PHONY : test/tutorial/global.c.i
+
+test/tutorial/global.s: test/tutorial/global.c.s
+
+.PHONY : test/tutorial/global.s
+
+# target to generate assembly for a file
+test/tutorial/global.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filework.dir/build.make CMakeFiles/filework.dir/test/tutorial/global.c.s
+.PHONY : test/tutorial/global.c.s
 
 # Help Target
 help:
@@ -205,12 +205,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... filework"
-	@echo "... filework.o"
-	@echo "... filework.i"
-	@echo "... filework.s"
-	@echo "... global.o"
-	@echo "... global.i"
-	@echo "... global.s"
+	@echo "... fileworkbase.o"
+	@echo "... fileworkbase.i"
+	@echo "... fileworkbase.s"
+	@echo "... test/tutorial/global.o"
+	@echo "... test/tutorial/global.i"
+	@echo "... test/tutorial/global.s"
 .PHONY : help
 
 
