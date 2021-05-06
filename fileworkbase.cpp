@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 using namespace std;
+
 PyObject *mod;
 static PyObject *_method_spaceout(){
     return PyObject_GetAttrString(mod,"space");
