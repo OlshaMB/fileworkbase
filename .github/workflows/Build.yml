@@ -43,6 +43,7 @@ jobs:
           - uses: actions/setup-python@v2
           - name: Run build
             run: |
+              ls -a
               rm -r build
               python3 ./setup.py build
           - name: Commit files
